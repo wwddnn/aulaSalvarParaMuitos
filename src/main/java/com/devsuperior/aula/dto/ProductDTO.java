@@ -26,6 +26,7 @@ public class ProductDTO {
         id = entity.getId();
         name = entity.getName();
         price = entity.getPrice();
+        //because is a List, and ManyToMany
         for (Category cat : entity.getCategories()) {
             categories.add(new CategoryDTO(cat));
         }
