@@ -11,7 +11,7 @@ public class ProductDTO {
     private String name;
     private Double price;
 
-    //association. obs. we goes use List and ArrayList, and don't use Set and Hashset.
+    //association. obs. we go use List and ArrayList, and don't use Set and Hashset.
     private List<CategoryDTO> categories = new ArrayList<>();
 
     //constructor with parameters. don't put collection here.
